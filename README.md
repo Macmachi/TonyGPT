@@ -36,11 +36,6 @@ TonyGPT, a humanoid robot with advanced linguistic capabilities, can understand 
 * Executes predefined action groups (such as squatting, doing sit-ups, waving, etc.) in response to specific voice commands.
 * Uses the hiwonder library to control servo motors and execute fluid movements.
 
-## Configuration and Personalization
-
-* Loads configuration parameters from YAML and INI files.
-* Allows customization of parameters such as confidence thresholds, API keys, etc.
-
 ## Future Ideas
 
 * Addition of a servo-motorized arm to extend the robot's physical capabilities.
