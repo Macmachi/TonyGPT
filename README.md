@@ -1,49 +1,47 @@
 # TonyGPT
 
-TonyGPT est un robot humanoïde qui comprend et parle 20 langues avec une connaissance approfondie. Voici une description détaillée de ses fonctionnalités principales :
+TonyGPT is a humanoid robot that understands and speaks 20 languages with in-depth knowledge. Here is a detailed description of its main features:
 
-## Reconnaissance faciale
+## Facial Recognition
 
-- Utilise un modèle de détection de visage pré-entraîné (res10_300x300_ssd_iter_140000_fp16.caffemodel) pour détecter les visages dans les images de la caméra.
-- Suit le visage détecté en ajustant la position de la tête du robot à l'aide de servomoteurs contrôlés par un algorithme PID.
-- Si aucun visage n'est détecté, la tête du robot tourne de droite à gauche pour rechercher des personnes.
+* Uses a pre-trained face detection model (res10_300x300_ssd_iter_140000_fp16.caffemodel) to detect faces in camera images.
+* Tracks the detected face by adjusting the robot's head position using servo motors controlled by a PID algorithm.
+* If no face is detected, the robot's head turns from right to left to search for people.
 
-## Reconnaissance vocale et interaction avec ChatGPT
+## Speech Recognition and Interaction with ChatGPT
 
-- Écoute les commandes vocales de l'utilisateur à l'aide de la bibliothèque speech_recognition.
-- Reconnaît la parole en utilisant l'API de reconnaissance vocale de Google.
-- Interagit avec l'API GPT-4 d'OpenAI pour générer des réponses aux questions de l'utilisateur.
-- Maintient un historique de conversation pour un contexte continu.
-- Détecte des mots-clés spécifiques comme "stop", "bonjour", "squat", etc., et déclenche des actions correspondantes.
+* Listens to user voice commands using the speech_recognition library.
+* Recognizes speech using Google's speech recognition API.
+* Interacts with OpenAI's GPT-4 API to generate responses to user questions.
+* Maintains a conversation history for continuous context.
+* Detects specific keywords like "stop", "hello", "squat", etc., and triggers corresponding actions.
 
-## Synthèse vocale
+## Speech Synthesis
 
-- Convertit le texte en parole en utilisant l'API de synthèse vocale d'OpenAI.
-- Joue l'audio généré à l'aide de la bibliothèque pygame.
-- Fait bouger le robot de manière aléatoire pendant qu'il parle pour une interaction plus naturelle.
+* Converts text to speech using OpenAI's speech synthesis API.
+* Plays the generated audio using the pygame library.
+* Moves the robot randomly while speaking for a more natural interaction.
 
-## Capture et description d'images
+## Image Capture and Description
 
-- Capture des images à l'aide de la caméra lorsque l'utilisateur demande au robot de décrire ce qu'il voit.
-- Envoie l'image capturée à l'API GPT-4 d'OpenAI pour générer une description textuelle.
-- Stocke la description générée dans une mémoire visuelle pour une utilisation ultérieure dans la conversation.
+* Captures images using the camera when the user asks the robot to describe what it sees.
+* Sends the captured image to OpenAI's GPT-4 API to generate a textual description.
+* Stores the generated description in a visual memory for later use in the conversation.
 
-## Mouvements et actions
+## Movements and Actions
 
-- Exécute des groupes d'actions prédéfinis (comme s'accroupir, faire des abdos, saluer, etc.) en réponse à des commandes vocales spécifiques.
-- Utilise la bibliothèque hiwonder pour contrôler les servomoteurs et exécuter des mouvements fluides.
+* Executes predefined action groups (such as squatting, doing sit-ups, waving, etc.) in response to specific voice commands.
+* Uses the hiwonder library to control servo motors and execute fluid movements.
 
-## Configuration et personnalisation
+## Configuration and Personalization
 
-- Charge les paramètres de configuration à partir de fichiers YAML et INI.
-- Permet de personnaliser les paramètres tels que les seuils de confiance, les clés API, etc.
+* Loads configuration parameters from YAML and INI files.
+* Allows customization of parameters such as confidence thresholds, API keys, etc.
 
 ## Future Ideas
 
-- Addition of a servo-motorized arm to extend the robot's physical capabilities.
-- Improvement of facial recognition to detect specific faces.
-- Integration of new features to make the robot even more versatile.
+* Addition of a servo-motorized arm to extend the robot's physical capabilities.
+* Improvement of facial recognition to detect specific faces.
+* Integration of new features to make the robot even more versatile.
 
-TonyGPT est un projet open-source qui démontre l'intégration de la vision par ordinateur, du traitement du langage naturel et de la robotique pour créer un compagnon robotique interactif et polyvalent. Le code est modulaire et bien documenté, ce qui permet aux développeurs de l'étendre et de l'adapter à leurs besoins spécifiques.
-
-TonyGPT est un projet open-source qui démontre l'intégration de la vision par ordinateur, du traitement du langage naturel et de la robotique pour créer un compagnon robotique interactif et polyvalent. Le code est modulaire et bien documenté, ce qui permet aux développeurs de l'étendre et de l'adapter à leurs besoins spécifiques.
+TonyGPT is an open-source project that demonstrates the integration of computer vision, natural language processing, and robotics to create an interactive and versatile robotic companion. The code is modular and well-documented, allowing developers to extend and adapt it to their specific needs.
