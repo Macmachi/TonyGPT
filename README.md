@@ -2,7 +2,8 @@
 
 TonyGPT is a humanoid robot that understands and speaks 20 languages with in-depth knowledge. Here is a detailed description of its main features:
 
-# Video Presentation of TonyGPT
+## Video Presentation of TonyGPT
+(Coming soon) 
 
 ## Facial Recognition
 
