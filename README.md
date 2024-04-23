@@ -38,6 +38,7 @@ TonyGPT, a humanoid robot with advanced linguistic capabilities, can understand 
 
 ## Future Ideas
 
+* Whisper Implementation for Enhanced Language Support in Input
 * Addition of a servo-motorized hand to extend the robot's physical capabilities
 * Object manipulation (grasping and manipulating objects)
 * Choreographed movements with music
