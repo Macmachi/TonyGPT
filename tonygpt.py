@@ -1,4 +1,4 @@
-# Version 1.0.0
+# Version 1.0.1
 # Author: Arnaud Ricci
 # Project TonyGPT : A humanoid robot that understands and speaks languages with in-depth knowledge, thanks to GPT4.
 # TonyGPT features: face detection, movement tracking, conversing with users using natural language processing, and performing basic physical actions based on interaction context.
@@ -139,13 +139,13 @@ def text_to_speech(text, voice='alloy', model='tts-1', output_format='mp3'):
     while pygame.mixer.music.get_busy():
         pygame.time.Clock().tick(10)
 
-        # Condition to check if the robot should move while speaking
-        if gptspeaking == True and is_robot_talkmoving == False :
+        # Condition to check if the robot should move while speaking 
+        if gptspeaking == True and is_robot_talkmoving == False and is_robot_speaking == True :
             is_robot_talkmoving = True
             actions = ['talk', 'talk2']
             chosen_action = random.choice(actions)
             AGC.runActionGroup(chosen_action)
-            time.sleep(1.5)  
+            time.sleep(0.5)  
             is_robot_talkmoving = False
 
     # Reset is_robot_speaking to False after finishing reading the audio file
