@@ -2,8 +2,14 @@
 
 TonyGPT, a humanoid robot with advanced linguistic capabilities, can understand 11 languages (without an API key) and speak 100 languages with remarkable depth. This innovative open-source project showcases the seamless integration of computer vision, natural language processing, and robotics, resulting in a highly interactive and adaptable robotic companion. Moreover, its modular and well-documented code allows developers to easily customize and extend the platform to suit their specific requirements.
 
-## Video Presentation of TonyGPT
-[Demo Video v1.0.0](https://drive.google.com/file/d/1ofw4-i7TSe4f_e6unVW54OwGUZlyHKly/view?usp=sharing)
+### Video Presentation of TonyGPT
+[Demo Video v1.0.0](https://www.youtube.com/watch?v=Fdb63Qth9-Y)
+
+### Blog articles : 
+[gadgetify.com](https://www.gadgetify.com/tonygpt/)
+
+### Contact : 
+[Linkedin](https://www.linkedin.com/in/arnaud-ricci-592847b6/ )
 
 ## Facial Recognition
 
