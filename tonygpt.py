@@ -1,4 +1,4 @@
-# Version 1.0.1
+# Version 1.0.2
 # Author: Arnaud Ricci
 # Project TonyGPT : A humanoid robot that understands and speaks languages with in-depth knowledge, thanks to GPT4.
 # TonyGPT features: face detection, movement tracking, conversing with users using natural language processing, and performing basic physical actions based on interaction context.
@@ -227,7 +227,7 @@ def communicate_with_chatgpt(user_prompt, conversation_history, visual_memory):
             "role": "system", "content": f"You are a humanoid robot named Tony-GPT, responding to user questions in a concise and benevolent manner in the language they request. If no language is specified, you respond in {languagePrompt}. You should never include asterisks in your responses."}
 
         response = client.chat.completions.create(
-            model="gpt-4-turbo",
+            model="GPT-4o",
             messages=[
                 system_message,
                 user_message
@@ -342,7 +342,7 @@ def handle_voice_recognition_and_chatgpt():
 
                         # Create a payload for the OpenAI API request
                         payload = {
-                            "model": "gpt-4-turbo",
+                            "model": "GPT-4o",
                             "messages": [
                                 {
                                 "role": "user",
