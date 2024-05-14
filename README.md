@@ -21,7 +21,7 @@ TonyGPT, a humanoid robot with advanced linguistic capabilities, can understand 
 
 * Listens to user voice commands using the speech_recognition library.
 * Recognizes speech using Google's speech recognition API.
-* Interacts with OpenAI's GPT-4 turbo API to generate responses to user questions.
+* Interacts with OpenAI's ~~GPT-4 turbo~~ GPT-4o API to generate responses to user questions.
 * Maintains a conversation history for continuous context.
 * Detects specific keywords like "stop", "hello", "squat", etc., and triggers corresponding actions.
 
@@ -34,7 +34,7 @@ TonyGPT, a humanoid robot with advanced linguistic capabilities, can understand 
 ## Image Capture and Description
 
 * Captures images using the camera when the user asks the robot to describe what it sees.
-* Sends the captured image to GPT-4 Turbo which includes vision capabilities to generate a textual description.
+* Sends the captured image to ~~GPT-4 turbo~~ GPT-4o which includes vision capabilities to generate a textual description.
 * Stores the generated description in a visual memory for later use in the conversation.
 
 ## Movements and Actions
