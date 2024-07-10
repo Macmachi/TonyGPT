@@ -9,7 +9,7 @@ TonyGPT, a humanoid robot with advanced linguistic capabilities, can understand 
 [gadgetify.com](https://www.gadgetify.com/tonygpt/)
 
 ### Author : 
-[Arnaud R.](https://www.linkedin.com/in/arnaud-ricci-592847b6/ )
+Arnaud R.
 
 ## Facial Recognition
 
