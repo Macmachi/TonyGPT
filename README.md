@@ -8,9 +8,6 @@ TonyGPT, a humanoid robot with advanced linguistic capabilities, can understand 
 ### Blog articles : 
 [gadgetify.com](https://www.gadgetify.com/tonygpt/)
 
-### Author : 
-rymentz
-
 ## Facial Recognition
 
 * Uses a pre-trained face detection model (res10_300x300_ssd_iter_140000_fp16.caffemodel) to detect faces in camera images.
